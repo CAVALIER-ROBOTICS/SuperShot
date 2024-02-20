@@ -1,5 +1,8 @@
 # SuperShot
-To implement, simply add SuperShot to the same folder as your Robot or RobotContainer files, and create a new SuperShot object. (in this example we called it superShot)
+This is an example of 7492 base level shooting code for the 2024 FRC game Crescendo.
+
+## Implemntation
+TO begin using simply add SuperShot to the same folder as your Robot or RobotContainer files, and create a new SuperShot object. (in this example we called it superShot)
 After you create your superShot object call superShot.setShooterSpeed(double Speed) in m/s to set your shooter's exit velocity. 
 And that's all, these equations do not account for your robots speed or acceleration it is meant to be used purely for stationary shooting.
 
