@@ -1,7 +1,7 @@
 # SuperShot
 This is an example of 7492 base level shooting code for the 2024 FRC game Crescendo.
 
-## Implemntation
+## Implementation
 To setup simply add SuperShot to the same folder as your Robot or RobotContainer files, and create a new SuperShot object (in this example we called it superShot).
 After you create your superShot object call superShot.setShooterSpeed(double Speed) in m/s to set your shooter's exit velocity.
 
@@ -13,4 +13,4 @@ Call superShot.update(double[] robotPosition, boolean isRedAlliance) to update y
 
 Call superShot.getTheta() to return your needed robot rotation in degrees
 
-Call superShot.getPhi() to return your needed shooter rotation in degrees
+Call superShot.getPhi() to return your needed shooter angle in degrees
