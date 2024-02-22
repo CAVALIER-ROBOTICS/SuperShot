@@ -11,6 +11,6 @@ These equations do not account for your robots current translational speed or ac
 ## Usage
 Call superShot.update(double[] robotPosition, boolean isRedAlliance) to update your robot position and angle based on double[x, y, z] and a boolean to set which speaker (red or blue) you wish to target.
 
-Call superShot.getTheta() to return your needed robot rotation in degrees
+Call superShot.getTheta() to return your needed robot rotation in degrees from the target.
 
-Call superShot.getPhi() to return your needed shooter angle in degrees
+Call superShot.getPhi() to return your needed shooter angle in degrees from horizontal.
